@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.androidButton.setOnClickListener{
-            Toast.makeText(this, "Cold! Too cold!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Simple toast for simple project", Toast.LENGTH_SHORT).show()
         }
     }
 
